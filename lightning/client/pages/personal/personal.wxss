@@ -1,0 +1,43 @@
+
+page{font-size: 28rpx;}
+.user{width: 100%;text-align: center;padding: 40rpx 0;}
+.imgs image{width: 140rpx;height: 140rpx;border-radius: 50%;}
+.backgrounds{background: #f2f2f2;height: 20rpx;}
+.wic{border-bottom: 1rpx #ddd solid;}
+.bangding{padding: 30rpx 0;margin: 0 20rpx;}
+.button{padding: 8rpx 20rpx;border: 1rpx #1AAD16 solid;color:#1AAD16;font-size: 24rpx;display: inline-block;}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.youx{padding: 30rpx 20rpx;}
+.right{color: #666}
+.kuaidi{padding-bottom: 40rpx;}
+.containerks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+#Diamonds{
+ display: inline-block;
+  width: 50rpx;
+  height: 50rpx;
+  border: 1rpx #555  solid;
+  margin-top: 40rpx;
+  margin-bottom: 10rpx;
+}
+.ulList{padding: 20rpx 20rpx;}
+.ouList{padding: 15rpx 0;}
+.cont{border-bottom: 1rpx  #f5f5f5 solid;} 
+.dins {text-align: center;background: #f2f2f2;padding: 40rpx;color: #555;}
+.dins image{width: 200rpx;height: 100rpx;} 
+.ac,.acb,.acc{margin-left: 30rpx;position: absolute;left: 0;top: 25rpx;opacity: 0}
+.acb{left:55rpx;top: 30rpx}
+.acc{left: 25rpx;}
+.abc{position: relative;}
+
+

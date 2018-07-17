@@ -1,0 +1,33 @@
+<view class="notGou" wx:if="{{show}}">
+   <view class="tit"> 购物车块饿瘪了T . T</view>
+   <view class="by">快给我挑点宝贝</view>
+   <view><button bindtap='shoppings'>快去逛逛</button></view>
+</view>
+<view wx:if="{{!show}}">
+<view class="backgrounds" ></view>
+<view class="container jiuzhang" >
+  <view>沂源连锁酒庄酒</view>
+  <view class="ying">编辑</view>
+  </view>
+    <view class="maxList">
+      <view wx:for="{{list}}" wx:key="{{list}}" class="jsao container">
+            <view class="imgs"><image src='{{item.yo.img}}'></image></view>
+            <view class="naJa">
+            <view class="names">{{item.yo.name}}</view>
+            <view class="jiage">${{item.yo.jiage}}</view>
+            </view>
+            <text class="jiages">x{{item.yu}}</text>
+      </view>  
+     
+  </view>
+    
+</view>
+<view class="dibu">
+    <view class='container'>
+         <view  >
+              <text class="yo">合计:￥<text class="moen">{{zongshu}}.00</text></text>
+              <view>不含运费</view>
+         </view >
+          <view class="jiesuan">结算</view>
+    </view>
+</view>

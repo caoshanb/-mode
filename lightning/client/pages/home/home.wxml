@@ -1,0 +1,56 @@
+
+<view>  
+    <image  src='../../image/tit.jpeg'  class="images"></image>
+</view>
+<view class="order">  
+   <text style="white-space:pre;">  </text><text class="line"></text>  
+   <text style="white-space:pre;">  </text><text class="txt">沂源酒庄</text>  
+   <text style="white-space:pre;">  </text><text class="line"></text>  
+</view>  
+   <swiper  autoplay="true"   indicator-color="#f1f1f1" indicator-dots="true" indicator-active-color="red"  style="height:600rpx">
+  <block  wx:for="{{imgUrl}}"  wx:key="imgUrl"  >
+    <swiper-item>
+      <image src="{{item}}"  style='width:100%;height:100%;' />
+    </swiper-item>
+  </block>
+</swiper>
+<view class="flex-wrp"   wx:for="{{list}}"  wx:key="{{list}}"  >
+                <view class="flex-item"  bindtap='chuancan' data-id='{{item}}'>
+                  <image src="{{item.img}}"> </image>
+                  <view style='margin-top:-20rpx;'>
+                    <text>{{item.name}}</text>
+                    <view class="money" data-id="{{item.id}}"  >${{item.jiage}}.00</view>
+                  </view>
+                </view>
+ </view>
+<view class="pinpai">
+    <image src="../../image/timg1.jpeg" class="tuan"></image>
+
+    <view class="tuanInfo titk">
+        <view class="icon">
+        <text>深圳市沂源酒业酒庄</text>
+        
+       <image src="../../image/dianhua.png" class="dianhua"   bindtap='phoneCode'></image>
+       <text class="dianhuas"></text>
+       </view>
+</view>
+ <view class="tuanInfo">
+<view class="icon">
+        <text class='dizhi '>广东省深圳市龙岗区李朗国际珠宝创业园A1栋</text>
+      <navigator url="/pages/geoPosition/geoPosition" hover-class="navigator-hover" style="margin-top:-75rpx;"> <text class="hout">查看位置 ></text></navigator>
+       </view>
+  </view>
+  <view class="tuanInfo" style="border:none;">
+<view class="icon">
+        <text class='dizhi '>周一至周日 09:00-18:00</text>
+       </view>
+  </view>
+  <view class='qrcode'>
+      <view> COPYRIGHT © 2018 广东沂源酒庄有限公司 </view>
+      <view>  CORPORATION. ALL RIGHTS RESERVED. </view>
+      <view>有赞提供技术支持</view>
+  </view>
+</view >
+
+
+ 

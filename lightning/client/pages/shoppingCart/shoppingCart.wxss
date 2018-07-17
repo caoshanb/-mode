@@ -1,0 +1,40 @@
+
+page{
+  font-size: 28rpx;
+}
+
+
+.notGou{
+text-align: center;font-size: 26rpx;margin-top: 100rpx;
+color: #555;
+}
+.tit,.by{margin-top: 14rpx;}
+.notGou button{font-size: 26rpx;margin-top: 40rpx;width: 200rpx;background: #FFF;color: red;border: 1rpx red solid;}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 30rpx;
+}
+.jsao{margin: 10rpx 0rpx;border-bottom: 1rpx #ddd solid ;padding: 0 30rpx}
+.jiuzhang{padding: 20rpx 0;}
+.backgrounds{background: #f2f2f2;height: 20rpx;}
+.ying{color: #666}
+.maxList{background: #f2f2f2;margin-bottom: 130rpx;}
+.imgs image{width: 220rpx;height:220rpx;background: #FFF;margin-left: -30rpx;}
+.naJa{margin-left: -340rpx;}
+.youks{background: #FFF;height: 50rpx;}
+maxList{}
+.jiage{margin-top: 110rpx;color: #0bae72;font-size: 35rpx;}
+.jiages{margin-top: 150rpx;font-size: 35rpx;}
+.dibu{position: fixed;bottom: 0;padding: 10rpx;background: #F6F6F6;width: 100%;border-top: 1rpx #ccc solid;}
+.moen{font-size: 32rpx;font-weight: bold;}
+.yo{color: #0bae72;}
+.jiesuan{color: #FFF;background:#0bae72;padding: 20rpx 80rpx;margin:0 -30rpx;height: 100%;margin-top: -15rpx; }
+
+
+
+
+
+

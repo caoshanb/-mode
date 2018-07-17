@@ -1,0 +1,89 @@
+/**index.wxss**/
+page {
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+}
+page {
+  width: 100%;
+  height: 100%;
+}
+.bas{
+  color: rebeccapurple;
+  
+}
+.users{text-align: center;padding-left: 80rpx;}
+.logo{font-weight: bold;fonr-size:45rpx;}
+.xiazai{
+  font-size: 35rpx;
+  text-align: right;
+  display: inline-block;
+margin-left: 170rpx;
+border: 1rpx #F1F1F1 solid;
+padding: 12rpx 30rpx;
+border-radius:10rpx; 
+}
+
+.swiper-tab{
+    width: 100%;
+    border-bottom: 2rpx solid #ccc;
+    text-align: center;
+    height: 88rpx;
+    line-height: 88rpx;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    font-size: 30rpx;
+}
+.swiper-tab-item{
+    width: 30%; 
+    color:#434343;
+}
+.active{
+    color:#F65959;
+    border-bottom: 4rpx solid #F65959;
+}
+swiper{
+  text-align: center;
+}
+swiper-tab-item{font-size: 30rpx;}
+
+
+
+.userinfo, .uploader, .tunnel {
+    margin-top: 40rpx;
+    height: 140rpx;
+    width: 100%;
+    background: #FFF;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-left: none;
+    border-right: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: all 300ms ease;
+}
+.userinfo{
+  background:#d43c33; 
+  color: #FFF;
+  font-weight: blod;
+}
+
+.tuijian{font-size: 35rpx;display:flex;left:0;margin-top: 45rpx;padding-left:10rpx; }
+.tian{width: 10rpx;background: #d43c33;}
+.audios{margin: 25rpx 0;font-size: 40rpx;width: 100%;}
+#myAudio{position: fixed;width: 100%;}
+.names{width: 100%;margin: 0 auto;}
+.hide{
+     display:none 
+}
+.hideInp{width: 100%; display: flex;}
+.inputs{ display: flex;width: 500rpx;font-size: 35rpx;border:1rpx #ccc solid; }
+.images{width: 200rpx;height: auto;}
+
+
+
+

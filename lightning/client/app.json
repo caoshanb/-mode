@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/shoppingCart/shoppingCart",
+    "pages/commodity/commodity",
+    
+   
+   "pages/personal/personal",
+    "pages/Development/Development",
+    "pages/index/index",
+    "pages/geoPosition/geoPosition"
+  ],
+  "window":{
+    "backgroundColor":"#F6F6F6",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "沂源酒庄",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color":"#333",
+    "borderStyle": "white",
+    "selectedColor":"#f16e0f",
+    "list":[{
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "image/shouye.png",
+        "selectedIconPath": "image/shouye.png"
+    },
+    {
+      "pagePath": "pages/shoppingCart/shoppingCart",
+      "text": "购物车",
+      "iconPath": "image/gouwu.png",
+      "selectedIconPath": "image/gouwu.png"
+    },
+    {
+      "pagePath": "pages/personal/personal",
+      "text": "我的",
+      "iconPath": "image/geren.png",
+      "selectedIconPath": "image/geren.png"
+    }]
+
+  }
+}

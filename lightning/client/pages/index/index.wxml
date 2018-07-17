@@ -1,0 +1,50 @@
+<!--index.wxml-->
+<view class="container">
+
+    <view class="userinfo users" bindtap="login">
+        <view class='users' >
+            <text class="logo">闪电音乐</text>
+            <view class="xiazai">下载APP</view>
+        </view>
+    </view>
+<!--tab切换  -->
+<view class="swiper-tab">
+    <view class="swiper-tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTab">推荐歌曲</view>
+    <view class="swiper-tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="clickTab">热歌榜</view>
+    <view class="swiper-tab-item {{currentTab==2?'active':''}}" data-current="2" bindtap="clickTab">搜索</view>
+</view>
+</view>
+<view>
+    {{names.userna}}
+</view>
+<view class="swiper-tab-item {{currentTab!=0?'hide':''}}" data-current="0" bindtap="clickTab">
+    <view class='tuijian'>
+    <text class="tian"></text>
+    <text>推荐歌曲</text>
+    </view>
+
+
+    <view class="audios" >
+    <!-- <view>
+            <audio  author="{{list.singerName}}"  loop="false"  height="500" width="1000rpx"   src="{{list.url}}" name="{{list.fileName}}"  id="myAudio" controls loop bindplay="funplay"     bindpause="funpause" bindtimeupdate="funtimeupdate" bindended="funended" binderror="funerror"></audio>
+        </view> -->
+<!-- </view> -->
+  <view wx:for="{{list}}"  wx:key="id">
+            <image  src="{{item.author_pic}}" style='width:200rpx;height:200rpx' ></image>
+              <audio  author="{{item.author}}"    style="display:none"  src="{{item.url}}" name="{{item.title}}" poster= '{{item.author_pic}} '    controls loop> </audio>  
+        </view> 
+        </view>
+  </view>  
+
+
+
+<view class="swiper-tab-item {{currentTab!=2?'hide':''}}" data-current="0" bindtap="clickTab">
+    <view class="hideInp">
+       <input class="inputs" name="userName"  placeholder="搜索歌曲" bindblur="inputsk"  />
+    </view>
+      <view >
+        <audio  author="{{gequ.album[0].name}}"    src="{{gequ.audio}}" name="{{gequ.name}}"   controls loop ></audio>
+        </view>  
+    <!-- </view> -->
+</view>
+

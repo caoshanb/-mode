@@ -1,0 +1,17 @@
+{
+	"client": "./client",
+	"svr": "./server",
+	"miniprogramRoot": "./client",
+	"qcloudRoot": "./server",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"appid": "wx80243c6525b66d34",
+	"projectname": "%2Fhome%2Fcaoshanbin%2FDesktop%2Flightning",
+	"compileType": "miniprogram",
+	"condition": {}
+}
